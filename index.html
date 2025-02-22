@@ -1,0 +1,89 @@
+<!DOCTYPE html><html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ServerShack</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #1e3a8a;
+            color: white;
+            text-align: center;
+        }
+        header {
+            background-color: #2563eb;
+            padding: 20px;
+        }
+        .logo {
+            max-width: 150px;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+        }
+        main {
+            padding: 20px;
+        }
+        .join-button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #3b82f6;
+            color: white;
+            text-decoration: none;
+            font-size: 20px;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+        footer {
+            background-color: #1e40af;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+    <script>
+        function showAlert() {
+            alert('Welcome to ServerShack!');
+        }
+        window.onload = showAlert;
+    </script>
+</head>
+<body>
+    <header>
+        <img src="https://raw.githubusercontent.com/ToastGamingUS/ServerShack-Website/refs/heads/main/inuhkV.png" alt="ServerShack Logo" class="logo">
+        <h1>Welcome to ServerShack</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#about">What is ServerShack?</a></li>
+            <li><a href="#join">Play Now</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="about">
+            <h2>What is ServerShack?</h2>
+            <p>ServerShack is a multiplayer room-based game where players can chat, customize their avatars, and have fun in various rooms.</p>
+        </section>
+        <section id="join">
+            <h2>Play Now</h2>
+            <p>Experience the fun of ServerShack today! Click below to get started.</p>
+            <a href="https://toast-gaming.itch.io/servershack" class="join-button">Play Now</a>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 ServerShack. All rights reserved.</p>
+    </footer>
+</body>
+</html>
